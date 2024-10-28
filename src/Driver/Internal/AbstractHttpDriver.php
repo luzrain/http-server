@@ -113,7 +113,7 @@ abstract class AbstractHttpDriver implements HttpDriver
             ),
             [
                 'exception' => $exception,
-                'method' => $request,
+                'method' => $method,
                 'uri' => $uri,
                 'protocolVersion' => $protocolVersion,
                 'local' => $local,
